@@ -1,0 +1,11 @@
+Dear {{ username }},
+
+To confirm your email, click on the following link:
+
+{{ url_for('create_user', token=token, _external=True) }}
+
+
+
+Sincerely,
+
+The Microblog Team
